@@ -133,7 +133,7 @@ Address: 0xaec35285e21045bd4f159165015cc1f9df14c13e
 
 ## Deploy a Solidity smart contract
 
-We have included a couple of smart contracts written in Solidity in the code repo to help you test out their deployment right away.
+We have included a couple of smart contracts written in Solidity in the [Github repo](https://github.com/blockvigil/maticvigil-cli) to help you test out their deployment right away.
 You can find them under `contracts/` as `ERC20Mintable.sol` and `SignerControlBase.sol`
 
 The syntax to deploy a contract through the CLI tool is:
@@ -145,7 +145,7 @@ mv-cli deploy <path-to-solidity-contract> \
 ```
 >Currently MaticVigil API accepts Solidity files that import other Solidity files containing smart contracts and library code, **within the same directory**. For example, your imports must be of the form `import './SafeMath.sol'` denoting that `SafeMath.sol` is to be found in the same directory.
 
->We will soon add support for parsing relative import paths as well. Feel free to create a pull request against our [Github repo](https://github,com/blockvigil/maticvigil-cli) or chat with us on the [public discord channel](https://discord.gg/5GGVJyM) if you wish to contribute to solving this.
+>We will soon add support for parsing relative import paths as well. Feel free to create a pull request against our [Github repo](https://github.com/blockvigil/maticvigil-cli) or chat with us on the [public discord channel](https://discord.gg/5GGVJyM) if you wish to contribute to solving this.
 
 ### ERC20 token contract example - ERC20Mintable.sol
 
