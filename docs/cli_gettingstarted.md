@@ -133,7 +133,7 @@ Address: 0xaec35285e21045bd4f159165015cc1f9df14c13e
 
 ## Deploy a Solidity smart contract
 
-We have included a couple of smart contracts written in Solidity in the [Github repo](https://github.com/blockvigil/ethvigil-cli) to help you test out their deployment right away.
+We have included a couple of smart contracts written in Solidity in the [Github repo](https://github.com/blockvigil/maticvigil-cli) to help you test out their deployment right away.
 You can find them under `contracts/` as `ERC20Mintable.sol` and `SignerControlBase.sol`
 
 The syntax to deploy a contract through the CLI tool is:
