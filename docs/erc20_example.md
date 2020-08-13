@@ -7,7 +7,7 @@ The guide will introduce you to working with an ERC20 token contract via the Mat
 
 >Please note that this guide deploys and interacts with a ERC20 contract on the Matic sidechain, and not the Ethereum main chain. Creation and transfer of tokens on the Matic sidechain will not have any effect on your asset holdings and positions in DeFi protocols that run on the Ethereum main chain.
 
-These steps are also packaged into a CLI tool designed in Python for you to play around with a pre-supplied ERC20 contract. [Visit the repo](https://github.com/blockvigil/maticvigil-api-usage-examples/tree/master/erc20) to clone and get hacking away.
+These steps are also packaged into a CLI tool designed in Python for you to play around with an example ERC20 contract. [Visit the repo](https://github.com/blockvigil/maticvigil-api-usage-examples/tree/master/erc20) to clone and get hacking away.
 
 Alternately, you can keep a note of
 * the private key that identifies your user account uniquely on MaticVigil
