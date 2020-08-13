@@ -6,7 +6,7 @@ sidebar_label: Websocket stream APIs
 
 MaticVigil exposes a Websocket API to registered developers that can deliver streaming information on transactions, event logs, contract deployments in real time.
 
-You will need to copy over the API write key from the MaticVigil dashboard. Connect your Websocket client code to the endpoint `wss://mainnet.maticvigil.com/ws`
+You will need to copy over the API write key from the MaticVigil dashboard. Connect your Websocket client code to the endpoint `wss://ws.maticvigil.com`
 
 ## State transitions
 
