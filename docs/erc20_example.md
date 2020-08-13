@@ -68,6 +68,35 @@ in the implementation of the final inherited token contract.
 
 ![MaticVigil API signer](assets/code-examples/MaticVigilsigner.png)
 
+### Running the included CLI script to execute ERC20 functions
+
+Install the required Python modules.
+
+```bash
+cd maticvigil-api-usage-examples/erc20
+pip3 install -r requirements.txt
+```
+
+> You have to create a `settings.json` file for the command line script, [`cli.py`](https://github.com/blockvigil/maticvigil-api-usage-examples/blob/master/erc20/cli.py) to work. Make a local copy of the `settings.example.json` file included within the `erc20/` directory and name it `settings.json`
+
+```bash
+cp settings.example.json settings.json
+```
+
+In the `setttings.json` file, leave the `contractAddress` field to be filled after the [Deploy](#deploy-the-erc20-contract) step, and fill up the API endpoints, API key and the identity address associated with your MaticVigil account from `~/.maticvigil/settings.json`. The API endpoints have been filled below as an example for your convenience.
+
+```JSON
+{
+  "development": {
+    "contractAddress": "",
+    "privatekey": "0xprivatekeyhexstring",
+    "REST_API_ENDPOINT": "https://mainnet-api.maticvigil.com/v1.0",
+    "INTERNAL_API_ENDPOINT": "https://mainnet.maticvigil.com/api",
+    "ETHVIGIL_USER_ADDRESS": "0xaddr",
+    "ETHVIGIL_API_KEY": "1212-1212-12-12"
+  }
+}
+```
 
 ## Deploy the ERC20 contract
 
@@ -119,6 +148,15 @@ if __name__ == '__main__':
 **Equivalent command for the [CLI tool included](https://github.com/blockvigil/maticvigil-api-usage-examples/blob/master/erc20/cli.py)**
 ```bash
 python cli.py deploy
+
+Contract address was not supplied in configuration
+Enter the list of constructor inputs:
+["MyTOKEN", "MT", 18]
+Deploying with constructor arguments:
+['MyTOKEN', 'MT', 18]
+Deployed contract results
+{'success': True, 'data': {'contract': '0xa6fe1ec95bb54596e3f05b734769f80e1cb62457', 'gas': 'infinite', 'txhash': '0xd9ea9fadce9ce0e275cc06d40e4caf0454f17b2bd6807122dd56e39e86b923e8', 'hash': '0xd9ea9fadce9ce0e275cc06d40e4caf0454f17b2bd6807122dd56e39e86b923e8'}}
+Copy the contract address into settings.json
 ```
 
 ## Setup a webhook integration
