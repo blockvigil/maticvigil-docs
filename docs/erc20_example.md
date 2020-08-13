@@ -92,8 +92,8 @@ In the `setttings.json` file, leave the `contractAddress` field to be filled aft
     "privatekey": "0xprivatekeyhexstring",
     "REST_API_ENDPOINT": "https://mainnet-api.maticvigil.com/v1.0",
     "INTERNAL_API_ENDPOINT": "https://mainnet.maticvigil.com/api",
-    "ETHVIGIL_USER_ADDRESS": "0xaddr",
-    "ETHVIGIL_API_KEY": "1212-1212-12-12"
+    "MATICVIGIL_USER_ADDRESS": "0xaddr",
+    "MATICVIGIL_API_KEY": "1212-1212-12-12"
   }
 }
 ```
