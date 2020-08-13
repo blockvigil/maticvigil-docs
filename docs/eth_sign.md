@@ -177,6 +177,8 @@ The code snippets can be found in the [github repo](https://github.com/blockvigi
 
 ### Setting up the contract
 
+> The steps of copying over the settings file and populating the correct API endpoints, API keys and finally filling up the deployed contract address [are exactly similar to the ones presented in the ERC20 guide](erc20_example_code#running-the-included-cli-script-to-execute-erc20-functions).
+
 #### Deploy
 ```
 $ python eth_sign_cli.py deploy
