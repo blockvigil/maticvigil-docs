@@ -10,7 +10,8 @@ module.exports = {
       [
           '@docusaurus/plugin-google-analytics',
           {
-              id: 'analytics'
+              id: 'analytics',
+              trackingID: 'UA-113891968-6'
           }
       ],
       [
