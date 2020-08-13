@@ -10,8 +10,7 @@ module.exports = {
       [
           '@docusaurus/plugin-google-analytics',
           {
-              id: 'analytics',
-              trackingID: 'UA-113891968-6'
+              id: 'analytics'
           }
       ],
       [
@@ -96,7 +95,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} BlockVigil, Inc. Built with Docusaurus.`,
     },
     googleAnalytics: {
-      trackingID: 'UA-113891968-1',
+      trackingID: 'UA-113891968-6',
     },
   },
   presets: [
