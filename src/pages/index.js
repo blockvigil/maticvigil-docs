@@ -66,7 +66,7 @@ function Home() {
                 className={styles.heroLogo}
                 src={useBaseUrl('img/undraw_programmer_imem.svg')}
               />
-              Build and prototype{' '}
+              Build and deploy{' '}
               <span className={styles.heroProjectKeywords}>scalable</span>{' '}
               blockchain apps{' '}
               <span className={styles.heroProjectKeywords}>rapidly</span>{' '}with{' '}
