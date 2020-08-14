@@ -75,7 +75,7 @@ function Home() {
             <div className={styles.indexCtas}>
               <Link
                 className={styles.indexCtasGetStartedButton}
-                href="https://mainnet.maticvigil.com">
+                to={useBaseUrl('docs/web_onboarding')}>
                 Get Started
               </Link>
 

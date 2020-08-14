@@ -39,6 +39,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://mainnet.maticvigil.com/',
+          label: 'Signup',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/blockvigil/maticvigil-docs',
           label: 'Fork on GitHub',
           position: 'right',
