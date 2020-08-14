@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_task_list_6x9d.svg',
     description: (
       <>
-        We allow you to build fullstack apps on Matic Mainnet, without learning protocol specifics. Our <a href='/docs'>docs</a> cater to every developer, all the way from beginners to those already building dapps via web3, and provide examples to build upon.
+        We allow you to build fullstack apps on Ethereum via Matic Network, without learning protocol specifics. Our <a href='/docs'>docs</a> cater to every developer, all the way from beginners to those already building dapps via web3, and provide examples to build upon.
       </>
     ),
   },
