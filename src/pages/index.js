@@ -57,7 +57,7 @@ function Home() {
   return (
     <Layout
       title={`Home`}
-      description="API gateway for Matic.network">
+      description="Build scalable blockchain apps using BlockVigil's developer friendly API gateway for Matic Network">
       <div className={clsx('hero hero--primary', styles.hero)}>
           <div className={styles.heroInner}>
             <h1 className={styles.heroProjectTagline}>
@@ -76,7 +76,7 @@ function Home() {
               <Link
                 className={styles.indexCtasGetStartedButton}
                 href="https://mainnet.maticvigil.com">
-                Sign Up
+                Get Started
               </Link>
 
               <Link
