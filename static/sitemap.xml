@@ -36,11 +36,6 @@
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://maticvigil.com/docs/pycon2019_giveaway</loc>
-        <changefreq>weekly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
         <loc>https://maticvigil.com/docs/python_sdk</loc>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
