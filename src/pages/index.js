@@ -88,6 +88,7 @@ function Home() {
           </div>
         </div>
       <main>
+      <iframe width="100%" height="480" src="https://www.youtube.com/embed/8XaM4E6_B-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
         {features && features.length > 0 && (
           <section className={styles.features}>
             <div className="container">
