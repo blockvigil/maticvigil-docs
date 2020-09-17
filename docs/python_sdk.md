@@ -6,7 +6,7 @@ sidebar_label: Python
 
 ## Prerequisite: Sign up for an MaticVigil developer account
 
-To use the MaticVigil Python SDK, you need to be signed up for a beta developer account on https://mainnet.maticvigil.com
+To use the MaticVigil Python SDK, you need to be signed up for a developer account on https://mainnet.maticvigil.com
 
 **You can choose any of the following approaches.**
 

@@ -58,7 +58,7 @@ in the implementation of the final inherited token contract.
 
 ### A note about `msg.sender`
 
-* In standard mode on our alpha/beta platforms, all REST API calls to MaticVigil APIs are converted to native Ethereum transactions that are signed by a fixed address.
+* In standard mode, all REST API calls to MaticVigil APIs are converted to native Ethereum transactions that are signed by a fixed address.
   * For the Matic mainnet, this address happens to be `0xa3f36A33E66aDEb98e08Fe1Bd96B4C58517C64C4`.[ Here's a link to the transaction](https://explorer.matic.network/tx/0x0094f191c6ee29e7f307c82ff154ab0bec1d96e6751ece98b56d72b783e662ea/internal_transactions) from the [example `mint()` section.](erc20_example.md#minting) so you can verify that the above is indeed the address which signs transactions.
 
 
