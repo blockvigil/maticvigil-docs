@@ -44,8 +44,13 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://rpc.maticvigil.com/',
+          label: 'RPC Dashboard',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/blockvigil/maticvigil-docs',
-          label: 'Fork on GitHub',
+          label: 'Edit on GitHub',
           position: 'right',
         },
       ],
