@@ -49,6 +49,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://explorer-mainnet.maticvigil.com/',
+          label: 'Explorer',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/blockvigil/maticvigil-docs',
           label: 'Edit on GitHub',
           position: 'right',
