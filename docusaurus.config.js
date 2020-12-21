@@ -49,6 +49,11 @@ module.exports = {
           position: 'left',
         },
         {
+          href: 'https://discord.gg/5GGVJyM',
+          label: 'Discord',
+          position: 'left',
+        },
+        {
           href: 'https://github.com/blockvigil/maticvigil-docs',
           label: 'Edit on GitHub',
           position: 'right',
