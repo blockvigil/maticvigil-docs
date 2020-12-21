@@ -39,11 +39,6 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://mainnet.maticvigil.com/',
-          label: 'Signup',
-          position: 'left',
-        },
-        {
           href: 'https://rpc.maticvigil.com/',
           label: 'RPC Dashboard',
           position: 'left',
