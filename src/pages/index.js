@@ -58,6 +58,14 @@ function Home() {
     <Layout
       title={`Home`}
       description="Build scalable blockchain apps using BlockVigil's developer friendly API gateway for Matic Network">
+      <div className={clsx(styles.announcement, styles.announcementDark)}>
+          <div className={styles.announcementInner}>
+              Looking for Matic RPC/Nodes? 👉 {' '}
+              <Link to="https://rpc.maticvigil.com/">
+                RPC Dashboard
+              </Link>
+          </div>
+      </div>
       <div className={clsx('hero hero--primary', styles.hero)}>
           <div className={styles.heroInner}>
             <h1 className={styles.heroProjectTagline}>
